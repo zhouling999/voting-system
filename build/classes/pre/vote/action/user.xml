@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="user" namespace="/user" extends="sys">
+		<action name="UserAction" class="UserAction">
+			<result name="registersuccess">/index.jsp</result>
+			<result name="loginsuccess">/user/main.jsp</result>
+			<result name="loginfail">/user/loginfail.jsp</result>
+			<result name="removesuccess">/user/action.jsp</result>
+			<result name="pagesuccess">/user/pagesuccess.jsp</result>
+			<result name="modify">/user/modify.jsp</result>
+			<result name="action">/user/action.jsp</result>
+			<result name="success">/user/modify.jsp</result>
+			<result name="search">/user/search.jsp</result>
+
+		</action>
+	</package>
+
+
+</struts>

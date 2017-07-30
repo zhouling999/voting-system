@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+.div-body {
+	background: url(../images/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+}
+
+.table1 {
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+
+.table2 {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.table3 {
+	width: 90%;
+	margin: auto;
+	text-align: center;
+}
+
+.wrap {
+	padding: 3em;
+	width: 60%;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.2);
+}
+.wrap1 {
+	padding: 3em;
+	width: 50%;
+	margin: auto;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.hh2 {
+	color: white;
+	font-size: 2em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 6px;
+	text-align: center;
+}
+
+.hh3 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 6px;
+	padding-top: 1em;
+	text-align: center;
+}
+
+.hh4 {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 6px;
+	padding-top: auto;
+	text-align: center;
+}

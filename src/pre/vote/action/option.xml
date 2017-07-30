@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+
+	<package name="option" namespace="/option" extends="sys">
+		<action name="OptionAction" class="OptionAction">
+			<result name="showall">/vote/action.jsp</result>
+			<result name="addsuccess">/vote/action.jsp</result>
+			<result name="addfail">/vote/error.jsp</result>
+			<result name="showOptionByName">/vote/vote.jsp</result>
+			<result name="removesuccess">/vote/action.jsp</result>
+			<result name="success">/vote/skip.jsp</result>
+			<result name="showresult">/vote/result.jsp</result>
+			<result name="showresultbycontent">/vote/result.jsp</result>
+
+		</action>
+	</package>
+
+
+</struts>

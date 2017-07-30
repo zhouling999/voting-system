@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="UserAction" class="pre.vote.action.UserAction">
+		<property name="UserDao" ref="UserDao"></property>
+	</bean>
+	<bean id="VoteAction" class="pre.vote.action.VoteAction">
+		<property name="VoteDao" ref="VoteDao"></property>
+	</bean>
+	<bean id="OptionAction" class="pre.vote.action.OptionAction">
+		<property name="OptionDao" ref="OptionDao"></property>
+	</bean>
+		<bean id="productAction" class="pre.vote.action.ProductAction">
+	 <property name="productDao" ref="productDao"></property>
+	</bean>
+</beans>
